@@ -1,19 +1,61 @@
 {
-  "posts": [
+  "registration": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
+      "firstName": "akash",
+      "email": "akash@gmail.com",
+      "password": "12345"
+    },
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "firstName": "suresh",
+      "email": "suresh@gmail.com",
+      "password": "12345",
+      "id": 2
+    },
+    {
+      "firstName": "sophia",
+      "email": "sophia@gmail.com",
+      "password": "Rhea1123",
+      "id": 3
+    },
+    {
+      "firstName": "sophia",
+      "lastName": "cerin",
+      "email": "sophiacerin@gmail.com",
+      "password": "123456",
+      "id": 4
     }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "book": [
+    {
+      "expenseTitle": "Purchase",
+      "expenseNotes": "hgyftd",
+      "expenseCategory": "Groceries",
+      "expenseAmount": 1000,
+      "paidBy": "Cash",
+      "expenseDate": "10.10.2022",
+      "email": "sophiacerin@gmail.com",
+      "id": 1
+    },
+    {
+      "expenseTitle": "fjfyj",
+      "expenseNotes": "jhjgkjjhk",
+      "expenseCategory": "restaurant",
+      "expenseAmount": "3546",
+      "paidBy": "upi",
+      "expenseDate": "2023-04-13",
+      "email": "sophiacerin@gmail.com",
+      "id": 2
+    },
+    {
+      "expenseTitle": "bvjgk",
+      "expenseNotes": "fjgkhk",
+      "expenseCategory": "outing",
+      "expenseAmount": "4657",
+      "paidBy": "upi",
+      "expenseDate": "2023-03-28",
+      "email": "sophiacerin@gmail.com",
+      "id": 3
+    }
+  ]
 }
